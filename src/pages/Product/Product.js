@@ -19,8 +19,8 @@ function ProductPage() {
 
     return (
         <>
-            <h1>{ product.title }</h1>
-            <img src={ product.image }></img>
+            <h1>{ product.id }</h1>
+            <div>{ product.name }</div>
         </>
     )
 }

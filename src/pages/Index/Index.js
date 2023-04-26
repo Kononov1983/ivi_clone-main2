@@ -20,11 +20,11 @@ function IndexPage() {
                 {
                 products.map((item, index) => {
                     return <Card key={index}
-                                title={item.title}
-                                description={item.description}
                                 id={item.id}
-                                img={item.image}
-                                price={item.price} />
+                                name={item.name}
+                                photo={item.photo}
+                                films={item.films}
+                                professions={item.professions} />
                 })            
                 }
                 <Link to={ 'contacts' }>Контакты</Link>
